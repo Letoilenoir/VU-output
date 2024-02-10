@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
 from scipy.fft import fft
+>>>>>>>>> Temporary merge branch 2
 
 def load_audio_file():
     file_path = filedialog.askopenfilename(filetypes=[("WAV files", "*.wav")])
