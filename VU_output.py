@@ -3,8 +3,6 @@ from tkinter import filedialog
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
-from scipy.fft import fft  # noqa: F401
-
 
 def load_audio_file():
     file_path = filedialog.askopenfilename(filetypes=[("WAV files", "*.wav")])
